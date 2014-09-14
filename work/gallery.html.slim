@@ -1,0 +1,118 @@
+- @title     = "Gallery ｜ 演出劇照"
+- @mainClass = "work work-gallery"
+- @url       = "gallery"
+- @slug      = "work page-work-gallery"
+= render 'sub-menu'
+article
+  h1.article-title
+    .en lang="en" Gallery
+    .ch lang="zh-TW" 演出劇照
+  .albums
+    section.album
+      h1.album-title
+        span.en lang="en" The very beginning
+        span.ch.inline-block lang="zh-TW" 記憶的最初
+      ul
+        li.album-item
+          img src="#{$root}upload/thumbnail/1/1.jpg" data-url="#{$gallery}upload/thumbnail/1/1.jpg"
+        li.album-item
+          blockquote
+            p "If you want to see that nothing is left, give me your speechless, emptied space, my love."
+            footer
+              | Federico Garcĺa Lorca
+              i 《Nocturne of the Emptied Space》
+    section.album
+      h1.album-title
+        span.en lang="en" Lights
+        span.ch.inline-block lang="zh-TW" 開始有光
+      ul
+        - 13.times do |i|
+          li.album-item
+            img src="#{$root}upload/thumbnail/2/#{i+1}.jpg" data-url="#{$root}upload/gallery/2/#{i+1}.jpg"
+          - if i == 3
+            li.album-item
+              blockquote
+                p "Don’t worry. I will tell you our story. In the beginning, there was chaos and then the light was made."
+                footer
+                  | Theodoros Angelopoulos
+                  i 《Landscape in the Mist》
+    section.album
+      h1.album-title
+        span.en lang="en" Shadows
+        span.ch.inline-block lang="zh-TW" 光的背面
+      ul
+        - 10.times do |i|
+          li.album-item
+            img src="#{$root}upload/thumbnail/3/#{i+1}.jpg" data-url="#{$root}upload/gallery/3/#{i+1}.jpg"
+    section.album
+      h1.album-title
+        span.en lang="en" Room on stage
+        span.ch.inline-block lang="zh-TW" 房間
+      ul
+        - 6.times do |i|
+          li.album-item
+            img src="#{$root}upload/thumbnail/4/#{i+1}.jpg" data-url="#{$root}upload/gallery/4/#{i+1}.jpg"
+          - if i == 4
+            li.album-item
+              blockquote.en lang="en"
+                p Abandonnez cette habitude de pleurer sur vous-même, ce n'est pas la peine.
+                footer Marguerite Duras
+              blockquote.ch lang="zh-TW"
+                p 「不要為自己哭泣，放棄這樣的習慣吧。」
+                footer
+                  | 瑪格麗特‧莒哈絲
+                  i 《死亡的疾病》
+
+    section.album
+      h1.album-title
+        span.en lang="en" Voyage
+        span.ch.inline-block lang="zh-TW" 旅程
+      ul
+        - 15.times do |i|
+          li.album-item
+            img src="#{$root}upload/thumbnail/5/#{i+1}.jpg" data-url="#{$root}upload/gallery/5/#{i+1}.jpg"
+          - if i == 5
+            li.album-item
+              blockquote
+                p 「或許，所有的一切會在遙遠的彼方，註定無聲般消失得不著痕跡。至少有單一重疊的身影，伴隨這安靜的地方，一起流逝。生活只是不斷拉近距離，發現離去的事實。閉上眼，我試著回想美好事物，緊握回憶，雖然持續抹滅。」
+                footer
+                  | 村上春樹
+                  i 《人造衛星情人》
+
+    section.album
+      h1.album-title
+        span.en lang="en" Objects
+        span.ch.inline-block lang="zh-TW" 物件
+      ul
+        - 4.times do |i|
+          li.album-item
+            img src="#{$root}upload/thumbnail/6/#{i+1}.jpg" data-url="#{$root}upload/gallery/6/#{i+1}.jpg"
+          - if i == 3
+            li.album-item
+              blockquote
+                p "To create is to remember, memory is the base of everything."
+                footer 黑澤明
+    section.album
+      h1.album-title
+        span.en lang="en" Interrelation
+        span.ch.inline-block lang="zh-TW" 對話
+      ul
+        - 17.times do |i|
+          li.album-item
+            img src="#{$root}upload/thumbnail/7/#{i+1}.jpg" data-url="#{$root}upload/gallery/7/#{i+1}.jpg"
+    section.album
+      h1.album-title
+        span.en lang="en" Smoke
+        span.ch.inline-block lang="zh-TW" 煙
+      ul
+        - 4.times do |i|
+          li.album-item
+            img src="#{$root}upload/thumbnail/8/#{i+1}.jpg" data-url="#{$root}upload/gallery/8/#{i+1}.jpg"
+    section.album
+      h1.album-title
+        span.en lang="en" Farewell
+        span.ch.inline-block lang="zh-TW" 道別
+      ul
+        - 5.times do |i|
+          li.album-item
+            img src="#{$root}upload/thumbnail/9/#{i+1}.jpg" data-url="#{$root}upload/gallery/9/#{i+1}.jpg"

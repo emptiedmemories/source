@@ -1,0 +1,14 @@
+- links = [\
+  { :url=>"gallery", :text=>"Gallery" },\
+  { :url=>"video", :text=>"Video" },\
+  ]
+
+nav.sub-menu
+  ol
+    - for link in links
+      - if @url == link[:url]
+        li.current
+          a href=link[:url] = link[:text]
+      - else
+        li
+          a href=link[:url] = link[:text]

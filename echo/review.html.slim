@@ -1,0 +1,19 @@
+- @title     = "Article Review ｜ 專文"
+- @mainClass = "echo echo-review"
+- @url       = "review"
+- @slug      = "echo"
+= render 'sub-menu'
+
+- links = [\
+  { :url=>"lu-chien-ying", :class=>"lu" },\
+  { :url=>"lin-yatin", :class=>"lin ch" },\
+  { :url=>"tony-xxx", :class=>"tony ch" },\
+  { :url=>"jo-hsiao", :class=>"jo en"}\
+  ]
+article
+  h1.article-title
+    .en lang="en" Article Review
+    .ch lang="zh-TW" 專文
+  - for link in links
+    section class=link[:class]
+      = render link[:url]

@@ -1,0 +1,44 @@
+*
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+
+.chromeframe
+  position: absolute
+  top: 0
+
+a:link
+  -webkit-tap-highlight-color: #3e3330
+
+ins
+  background-color: #3e3330
+  color: #000
+  text-decoration: none
+
+mark
+  background-color: #3e3330
+  color: #000
+  font-style: italic
+  font-weight: bold
+
+input:-moz-placeholder
+  color: #a9a9a9
+
+textarea:-moz-placeholder
+  color: #a9a9a9
+
+$hsize: 12px, 12px, 12px, 12px, 12px, 12px
+
+@for $i from 1 to 6
+  h#{$i}
+    font-size: nth($hsize, $i)
+
+h1, h2, h3, h4, h5, h6
+  font-weight: normal
+
+.hide
+  display: none
+
+.small-hide
+  +small
+    display: none

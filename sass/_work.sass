@@ -1,0 +1,71 @@
+.page-work
+  overflow-x: hidden
+
+.work-gallery
+  .album
+    font-size: 0
+
+    *
+      vertical-align: middle
+
+    blockquote
+      font-size: 16px
+      footer
+        text-align: left
+        &::before
+          letter-spacing: 0
+          content: '──'
+          padding-right: 4px
+
+    .album-title
+      color: darken( $text, 100 )
+      position: relative
+      text-align: center
+      margin: 100px auto
+      span
+        border: 2px solid darken( $text, 100 )
+        font-size: 17px
+        line-height: 17px
+        padding: 8px
+        &.ch
+          text-indent: .3em
+          letter-spacing: .3em
+
+    ul
+      text-align: center
+      width: 80%
+      margin: 0 auto
+
+    li
+      display: inline-block
+      width: 50%
+      position: relative
+      &:hover
+        z-index: 1
+
+    img
+      opacity: .8
+      +transition( 2s )
+      &:hover
+        opacity: 1
+
+html
+  height: 100%
+.work-video
+  height: 100%
+  position: relative
+  .article-title
+    display: none
+  article
+    height: 100%
+    position: relative
+  .video-wrapper
+    width: 100%
+    padding-top: 56/100*100%
+    // top: 100px
+  iframe
+    width: 100%
+    height: 100%
+    position: absolute
+    left: 0
+    top: 0

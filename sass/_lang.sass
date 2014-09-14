@@ -1,0 +1,59 @@
+=set-colors($static: $bg, $bg: $bg, $link: $link, $color: white)
+  a
+    background: $bg
+    // color: $static;
+    color: rgba($static, 0)
+  &.unselected a
+    color: $link
+  &:hover
+    a
+      color: $link
+
+$width: 60px
+
+#toggle-lang
+  position: fixed
+  top: $darkmatter
+  right: -($width - 10)
+  width: $width
+  height: $width * 2
+  line-height: $width
+  text-transform: uppercase
+  text-align: center
+  font-size: 15px
+  z-index: 100
+  +transition(0.5s)
+  &:hover, &.unselected
+    right: 0
+    a
+      text-indent: 0
+      letter-spacing: 1px
+      color: rgba(#333333, 0.8)
+  a
+    opacity: .3
+    display: block
+    height: $width
+    background: $link
+    color: #333
+    letter-spacing: 10px
+    text-indent: -($width + 40px)
+    +transition(color 0.5s, background 0.5s, opacity 0.5s, text-indent 1s, letter-spacing 1s)
+    &:hover
+      opacity: 1
+      font-weight: bold
+    &.current
+      opacity: .6
+      font-weight: bold
+      cursor: default
+  .page-about &
+    +set-colors(#333333, $highlight, black, #aaaaaa)
+  .page-artist &
+    +set-colors($bg, rgba(#72ffc8, 0.7), black)
+  .page-work &
+    +set-colors($bg, #9ed4d8, #3d5c71)
+  .page-echo &
+    +set-colors($bg, #fcff89, #222)
+  .page-contact &
+    +set-colors($bg, rgba(#41ffe8, 0.6), #432823, #333333)
+  .page-book &
+    +set-colors($bg, black, white, #dddddd)

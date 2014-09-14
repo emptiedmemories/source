@@ -1,0 +1,130 @@
+.cut0
+  width: 90%
+  left: 5%
+  position: absolute
+  top: 50%
+  text-align: center
+  font-size: 0
+  div
+    vertical-align: top
+    position: relative
+    float: left
+    height: 0
+  .cut4-actived &
+    display: none
+
+$widths: 460, 577, 370
+$heights: 548, 866, 554
+$total: nth($widths, 1) + nth($widths, 2) + nth($widths, 3)
+
+=cut0($cut, $top: 0, $left: 0)
+  background: url("images/cuts/cut#{$cut}.jpg") left top no-repeat
+  background-size: cover
+  width: nth($widths, $cut) / $total * 100%
+  padding-top: nth($heights, $cut) / $total * 100%
+  margin-top: -(nth($heights, $cut) / $total) * 50% + $top
+
+.cut1
+  left: 10%
+  +cut0(1, 5)
+  opacity: 0
+  .cut1-active &
+    opacity: 1
+  .cut2-active &
+    opacity: .4
+  .cut3-active &
+    opacity: .1
+  .cut3-actived &
+    opacity: 0
+  +transition(opacity 1s)
+
+.cut2
+  +cut0(2)
+  opacity: 0
+  .cut2-active &
+    opacity: 1
+  .cut3-active &
+    opacity: .2
+  .cut3-actived &
+    opacity: 0
+  +transition(opacity 2s)
+
+.cut3
+  left: -5%
+  +cut0(3)
+  opacity: 0
+  .cut3-active &
+    opacity: 1
+  .cut3-actived &
+    opacity: 0
+  +transition(opacity 1s)
+
+.cut4
+  position: fixed
+  width: 100%
+  height: 100%
+  background: url("images/cuts/cut4.jpg") center center no-repeat
+  opacity: 0
+  +background-size(cover)
+  +transition(background-position 2s, opacity 1s)
+  .cut3-active &
+    background: url("images/cuts/cut4.jpg") -80px center no-repeat
+    +background-size(cover)
+  .cut4-active &
+    opacity: 1
+  .cut5-actived &
+    display: none
+
+.testimonial
+  position: fixed
+  width: 100%
+  height: 100%
+  opacity: 0
+  z-index: 2
+  background: rgba(black, 0.5)
+  +transition(opacity 1s)
+  text-align: center
+  li
+    position: absolute
+    width: 100%
+    height: 100%
+    display: table
+    opacity: 0
+    +transition(opacity 0.5s)
+    -webkit-backface-visibility: hidden
+    /* fix blink */
+  .cut5-active & .cut5
+    opacity: 1
+  .cut6-active & .cut6
+    opacity: 1
+  .cut7-active & .cut7
+    opacity: 1
+  .cut4-actived &
+    opacity: 1
+  .cut7-actived &
+    opacity: 0
+  .middle
+    vertical-align: middle
+    display: table-cell
+
+.slideshow
+  line-height: 0
+  .js &
+    opacity: 0
+    +transition(opacity $fade-duration)
+    .slide
+      position: fixed
+      top: 0
+      opacity: 0
+      width: 100%
+      height: 100%
+      +transition(opacity $fade-duration)
+      &.active
+        opacity: 1
+  .js.cut4-actived &, .intro-passed &
+    opacity: 1
+  .slide
+    width: 100%
+    height: 100%
+    background-position: center center
+    +background-size(cover)

@@ -1,0 +1,15 @@
+- links = [\
+  { :url=>"emptied-memories", :text=>"Emptied Memories" },\
+  { :url=>"panel", :text=>"Panel" },\
+  { :url=>"panoramic", :text=>"Panoramic Photography" }\
+  ]
+
+nav.sub-menu
+  ol
+    - for link in links
+      - if @url == link[:url]
+        li.current
+          a href=link[:url] = link[:text]
+      - else
+        li
+          a href=link[:url] = link[:text]

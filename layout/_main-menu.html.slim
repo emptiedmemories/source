@@ -1,0 +1,17 @@
+- links = [\
+  { :url => "#{$root}about/emptied-memories.html", :text => "about" },\
+  { :url => "#{$root}artist.html", :text => "artist" },\
+  { :url => "#{$root}work/gallery.html", :text => "work" },\
+  { :url => "#{$root}echo/review.html", :text => "echo" },\
+  { :url => "#{$root}contact.html", :text => "contact" },\
+  { :url => "#{$root}book.html", :text => "book" },\
+  ]
+
+nav#main-menu
+  h1.hide main menu
+  ul
+    - for link in links
+      - if @slug == link[:text]
+        li.current: a href="#{link[:url]}" =link[:text]
+      - else
+        li: a href="#{link[:url]}" =link[:text]

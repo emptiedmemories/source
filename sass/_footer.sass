@@ -1,0 +1,41 @@
+.copyright
+  position: fixed
+  left: 0
+  bottom: -$darkmatter
+  font-size: 8px
+  height: $darkmatter
+  line-height: $darkmatter
+  opacity: .3
+  z-index: 99
+  +transition(opacity 0.5s, left 1s)
+  &:hover
+    opacity: 1
+  a
+    width: $darkmatter
+    height: $darkmatter
+    position: relative
+    float: left
+    +transition(all 0.5s)
+    &:hover
+      .hide
+        +transform(rotateZ(90deg))
+    .hide
+      position: absolute
+      left: ($darkmatter - 14) / 2
+      top: ($darkmatter - 14) / 2
+      width: 14px
+      height: 14px
+      display: block
+      text-indent: -100000px
+      background: url("images/logos/facebook.svg") left top no-repeat
+      +transition(all 0.5s)
+      +transform(rotateZ(0deg))
+      .page-book &
+        background-position: right top
+  +transform(rotateZ(-90deg))
+  +transform-origin(0% 0%)
+  @extend %blink
+  .js .page-home &
+    left: -$darkmatter
+  .js.cut3-actived .page-home &, .intro-passed .page-home &
+    left: 0

@@ -1,0 +1,14 @@
+- links = [\
+  { :url=>"review", :text=>"Article Review", :class=>'' },\
+  { :url=>"audience-feedback", :text=>"Audience Feedback", :class=>'ch' },\
+  ]
+
+nav.sub-menu
+  ol
+    - for link in links
+      - if @url == link[:url]
+        - @class = link[:class] + ' current'
+      - else
+        - @class = link[:class]
+      li class="#{@class}"
+        a href=link[:url] = link[:text]

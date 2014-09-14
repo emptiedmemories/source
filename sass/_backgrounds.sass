@@ -1,0 +1,28 @@
+=gradient($bgcolor)
+  background-image: url("images/bgs/background-transparent.gif")
+  +background-size(cover)
+  background-color: $bgcolor
+  #header
+    &:before
+      background: $bgcolor
+
+body
+  background-image: url("images/bgs/background-transparent.gif")
+  background-repeat: no-repeat
+  background-position: center center
+  background-attachment: fixed
+
+.page-contact
+  background-image: url("images/bgs/background-5.jpg")
+  background-color: #000
+  +background-size(cover)
+
+$bodyClass: about, artist, echo, work-gallery, book
+$bgColors: $bg-about, $bg-artist, $bg-echo, $bg-work-gallery, $bg-book
+
+@for $i from 1 through 5
+  .page-#{nth($bodyClass, $i)}
+    +gradient(nth($bgColors, $i))
+
+.page-work-video
+  background-color: #000

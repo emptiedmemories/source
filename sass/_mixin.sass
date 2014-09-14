@@ -1,0 +1,132 @@
+@import compass/css3/box-shadow
+
+=hide
+  visibility: hidden
+  display: none
+  opacity: 0
+  width: 0
+  height: 0
+  overflow: hidden
+
+=mq($mq)
+  @if $mq == retina
+    @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx)
+      @content
+  @else
+    @if $mq == large
+      @media (min-width: 1024px)
+        @content
+    @else if $mq == small
+      @media (max-width: 480px)
+        @content
+    @else if $mq == medium
+      +mqbt(480px, 1024px)
+        @content
+    @else if $mq == notsmall
+      @media (min-width: 480px)
+        @content
+    @else if $mq == notlarge
+      @media (max-width: 1024px)
+        @content
+    @else if $mq == landscape
+      @media (orientation: landscape)
+        @content
+    @else if $mq == portrait
+      @media (orientation: landscape)
+        @content
+    @else
+      @media (max-width: $mq + "px")
+        @content
+
+=retina
+  +mq("retina")
+    @content
+
+=small
+  +mq("small")
+    @content
+
+=medium
+  +mq("medium")
+    @content
+
+=large
+  +mq("large")
+    @content
+
+=notsmall
+  +mq("notsmall")
+    @content
+
+=notlarge
+  +mq("notlarge")
+    @content
+
+=landscape
+  +mq("landscape")
+    @content
+
+=portrait
+  +mq("portrait")
+    @content
+
+=mqbt($min, $max)
+  @media (min-width: $min) and (max-width: $max)
+    @content
+
+=clear
+  &:after
+    content: ''
+    clear: both
+    display: block
+    width: 0
+    height: 0
+    overflow: hidden
+
+=background($url, $width, $height)
+  background-image: url($url)
+  -webkit-background-size: $width $height
+  -o-background-size: $width $height
+  background-size: $width $height
+
+=retinaBackground($url, $type, $width, $height)
+  +background($url + "." + $type, $width, $height)
+  +mq("retina")
+    +background($url + "@2x." + $type, $width, $height)
+
+=transform($transform...)
+  -webkit-transform: $transform
+  -moz-transform: $transform
+  -ms-transform: $transform
+  -o-transform: $transform
+  transform: $transform
+
+=transform-origin($transform-origin...)
+  -webkit-transform-origin: $transform-origin
+  -moz-transform-origin: $transform-origin
+  -ms-transform-origin: $transform-origin
+  -o-transform-origin: $transform-origin
+  transform-origin: $transform-origin
+
+=transition($transition...)
+  -webkit-transition: $transition
+  -moz-transition: $transition
+  -ms-transition: $transition
+  -o-transition: $transition
+  transition: $transition
+
+=ninja
+  content: ''
+  display: block
+  position: absolute
+
+=grayscale
+  -webkit-filter: grayscale(100%)
+  -moz-filter: grayscale(100%)
+  -ms-filter: grayscale(100%)
+  -o-filter: grayscale(100%)
+  filter: grayscale(100%)
+  filter: url(grayscale.svg)
+  /* Firefox 4+
+  filter: gray
+  /* IE 6-9

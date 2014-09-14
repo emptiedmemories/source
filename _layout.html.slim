@@ -1,0 +1,29 @@
+- $root = "/";
+- if ENV["RACK_ENV"] == "production"
+  - $root = "http://emptiedmemories.com/";
+
+doctype html
+/[if lt IE 7]
+  html class="no-js ie ie6 lt-ie9 lt-ie8 lt-ie7"
+/[if IE 7]
+  html class="no-js ie ie7 lt-ie9 lt-ie8"
+/[if IE 8]
+  html class="no-js ie ie8 lt-ie9"
+/[if IE 9]
+  html class="no-js ie ie9"
+| <!--[if (gte IE 9)|!(IE)]<!-->
+html.no-js
+  | <!--<![endif]-->
+  head
+    = render 'layout/head'
+  body class='page-#{@slug} #{@bodyCass}'
+    #wrapper
+      = render 'layout/header'
+      main class=@mainClass data-slug=@slug
+        = yield
+      = render 'layout/footer'
+      #loader
+        span#loaded-item
+        | |
+        span#total-item
+    = render 'layout/script'

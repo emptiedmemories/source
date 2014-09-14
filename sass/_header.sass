@@ -1,0 +1,114 @@
+#header
+  @extend %blink
+  position: fixed
+  left: 0
+  top: 0
+  right: 0
+  padding: $darkmatter
+  padding-bottom: $margin
+  z-index: 99
+  opacity: 1
+  +transition( padding-top .5s, padding-bottom .5s )
+  &:before
+    +ninja
+    width: 100%
+    left: 0
+    top: 0
+    bottom: 0
+    z-index: 1
+    +transition(background 1s)
+  &:after
+    +ninja
+    height: 50px
+    width: 80%
+    left: 10%
+    bottom: 60px
+    $shadow-color: rgba(#000, .5)
+    background: $shadow-color
+    opacity: 0
+    +border-radius(50%)
+    +box-shadow(0 2px 30px 30px $shadow-color)
+    +transition(bottom .5s, opacity .5s .5s)
+  .scrolled &
+    padding-top: 20px
+    padding-bottom: 20px
+    &:after
+      bottom: 35px
+      opacity: 1
+      +transition(bottom .5s, opacity 0s)
+  .js .page-home &
+    padding-left: $darkmatter + 30px
+    opacity: 0
+    +transition( padding-left 3s, opacity .5s, background 1s )
+  .page-about &
+    opacity: .9
+
+  .js.cut3-actived .page-home &, .intro-passed .page-home &
+    padding-left: $darkmatter
+    opacity: 1
+
+  .page-home &, .page-contact &
+    background: transparent
+    &:after
+      display: none
+
+#branding
+  position: relative
+  z-index: 1
+  float: left
+  a
+    display: block
+    width: 124px
+    height: 49px
+    background: url('images/logos/logotype-em.svg') 0 0 no-repeat
+    +transition( background .5s )
+
+    .page-book &
+      background-position: 0 bottom
+
+#main-menu
+  text-transform: uppercase
+  font-size: 0
+  margin-left: 124px + $darkmatter
+  position: relative
+  z-index: 1
+
+  li
+    font-size: $menu-size
+    display: inline-block
+    margin-right: 40px
+    line-height: 1em
+
+    a
+      color: mix( $link, #000, 70% )
+      +transition( color .3s )
+
+    &.current a, &:hover a
+      color: $link
+
+.sub-menu
+  position: fixed
+  left: $darkmatter + 124px + $darkmatter
+  top: 79px
+  font-size: 0
+  width: 100%
+  z-index: 99
+  +transition( top .5s )
+  .scrolled &
+    top: 79px - 30
+
+  li
+    list-style-position: inside
+    line-height: 1.5em
+    font-size: $menu-size
+    float: left
+    margin-right: 49px
+
+    &.current a
+      opacity: 1
+
+    a
+      +transition( color .5s, opacity .5s )
+      opacity: .5
+      &:hover
+        opacity: 1

@@ -1,0 +1,11 @@
+/ = livereload_js unless ENV["RACK_ENV"] == "production"
+= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min"
+javascript:
+  window.jQuery || document.write('<script src="/javascripts/jquery-2.0.0.min.js"><\/script>')
+script type="text/javascript" src="#{$root}javascripts/functions.js"
+script type="text/javascript" src="#{$root}javascripts/panel.js"
+script type="text/javascript" src="#{$root}javascripts/panoramic.js"
+script type="text/javascript" src="#{$root}javascripts/gallery.js"
+script type="text/javascript" src="#{$root}javascripts/home.js"
+script type="text/javascript" src="#{$root}javascripts/site.js"
+= livereload_js unless ENV["RACK_ENV"] == "production"

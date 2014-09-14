@@ -1,0 +1,79 @@
+- @title     = "Book ｜ 創作紀實專書"
+- @mainClass = "book"
+- @url       = "book"
+- @slug      = "book"
+article
+  h1.article-title
+    .en lang="en" Book
+    .ch lang="zh-TW" 創作紀實專書
+  .book-photo
+    -5.times do |i|
+      img src="#{$root}upload/book/#{(i+1)}.jpg" data-retina="#{$root}upload/book/#{(i+1)}@2x.jpg"
+  .introduction
+    h2
+      span.en lang="en" Wander into the poetic and dream-like space of Emptied Memories with ONE paper dance film and ELEVEN behind the scene scenarios
+      span.ch lang="zh-TW" 一部看得見舞蹈的紙上電影<br />跨界劇場製作過程全面剖白
+    p.en lang="en"
+      | Each copy costs USD. 25<br />
+        If you would like to have one, please fill in the following form.<br />
+        For further information:&nbsp;
+      a.link rel="external" href="mailto:vmstudio.tw@gmail.com" vmstudio.tw@gmail.com
+    p.ch lang="zh-TW"
+      | 《空的記憶》創作紀實<br />
+        1部紙上電影 × 11段創作故事 × 12篇名家專文<br />
+        走入肢體與空間共舞的微光長廊<br />
+        專書一本定價NTD.540（含單一住址運費）<br />
+        需購買者請完成匯款後，回覆以下問卷即可。<br />
+        如有相關問題請不吝來信：
+      a.link rel="external" href="mailto:vmstudio.tw@gmail.com" vmstudio.tw@gmail.com
+      br
+      |
+        <br />
+        匯款資訊：<br />
+        銀行：中國信託 木柵分行<br />
+        戶名：狠主流多媒體有限公司<br />
+        帳號：178540015610<br />
+    .form-wrapper
+      h2
+        .en lang="en" Order Form
+        .ch lang="zh-TW" 訂購單
+      .confirm.hide
+        .en lang="en" your order is submitted, thanks
+        .ch lang="zh-TW" 您的訂單已送出，謝謝您的購買
+      iframe.hide#hidden-iframe name="hidden-iframe"
+      form.order action="https://docs.google.com/forms/d/1OMLxWb1pwnuNUHQ5AFmhcpnCcYiQNQ_I1_EVRaO1vos/formResponse" method="post" onsubmit="submitted()" target="hidden-iframe"
+        label
+          .en lang="en" Name
+          .ch lang="zh-TW" 訂購人姓名
+          input#entry_84804713{ type="text" required="required" name="entry.84804713"}
+        label
+          .en lang="en" Contact Number
+          .ch lang="zh-TW" 訂購人聯絡電話
+          input#entry_980828242{ type="text" required="required" name="entry.980828242"}
+        label
+          .en lang="en" Email
+          .ch lang="zh-TW" 訂購人電子郵件
+          input#entry_1787310095{ type="text" required="required" name="entry.1787310095"}
+        label
+          .en lang="en" Amount
+          .ch lang="zh-TW" 購買數量
+          input#entry_28572086{ type="text" required="required" name="entry.28572086"}
+        label
+          .en lang="en" Last 5 digits of Bank Account Number:
+          .ch lang="zh-TW" 匯款帳號後5碼
+          input#entry_1631352071{ type="text" required="required" name="entry.1631352071"}
+        label
+          .en lang="en" Transaction Amount
+          .ch lang="zh-TW" 匯款金額
+          input#entry_687858946{ type="text" required="required" name="entry.687858946"}
+        label
+          .en lang="en" Name of Contact Person
+          .ch lang="zh-TW" 收件人姓名
+          input#entry_232731049{ type="text" required="required" name="entry.232731049"}
+        label
+          .en lang="en" Address
+          .ch lang="zh-TW" 收件地址
+          input#entry_1184009810{ type="text" required="required" name="entry.1184009810"}
+        button#ss-submit type="submit" name="submit"
+          span.en lang="en" submit
+          span.ch lang="zh-TW" 送出

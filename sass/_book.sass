@@ -1,0 +1,75 @@
+.book
+  article
+    overflow: hidden
+  .book-photo
+    line-height: 0
+    width: 50%
+    float: left
+  .introduction
+    width: 50%
+    float: right
+    padding-left: $margin
+    h2
+      font-size: 25px
+      line-height: 1.3em
+      margin-bottom: 1em
+      .en
+        font-size: 20px
+        line-height: 1.1em
+  p
+    margin-bottom: $margin
+    min-height: 80px
+  .form-wrapper
+    h2
+      font-size: 20px
+      line-height: 1.8em
+    border: 1px solid darken($bg-book, 5)
+    width: 100%
+    padding: 20px
+    +border-radius(5px)
+  form
+    label
+      display: block
+      margin-bottom: 20px
+    input
+      border: 0
+      padding: 3px
+      +border-radius(3px)
+      +transition(background 0.5s)
+      &[type="text"]
+        background: darken($bg-book, 7)
+        color: #fff
+      &:focus
+        outline: 0
+        background: $highlight-book
+        color: #333
+    [type="submit"]
+      +border-radius(3px)
+      +transition(background 0.5s)
+      border: 0
+      padding: 5px 10px
+      margin: 10px 0
+      background: $highlight
+      color: #333
+      &:focus
+        outline: 0
+      &:hover
+        background: lighten($highlight, 5)
+      &:active
+        background: darken($highlight, 10)
+
++notlarge
+  .book
+    p
+      min-height: auto
+    .book-photo
+      float: none
+      width: 100%
+      margin-bottom: $margin
+      img
+        width: 100%
+        height: auto
+    .introduction
+      float: none
+      width: 100%
+      padding-left: 0

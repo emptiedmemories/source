@@ -1,0 +1,45 @@
+.artist
+  section
+    width: 40%
+    margin-right: $margin
+    display: inline-block
+    vertical-align: top
+    h1
+      font-size: 15px
+      margin-bottom: 10px
+    .history
+      font-style: italic
+      color: darken($text, 40)
+    p.en, p.ch
+      // margin-top: $margin;
+    img
+      width: 100%
+
+.artist-group
+  .unit
+    font-weight: bold
+  .group-create
+    li
+      margin-bottom: $margin
+  p
+    color: darken($text, 50)
+    +transition(color 0.5s)
+    .half
+      display: inline-block
+      width: 50%
+  .group-produce:hover,
+  .thanks:hover,
+  li:hover
+    p
+      color: $highlight
+
++notlarge
+  .artist
+    padding-right: $darkmatter
+    section
+      width: 100%
+      margin-right: 0
+      display: block
+  .group-create
+    margin-top: $margin
+  .unit

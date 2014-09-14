@@ -1,0 +1,119 @@
+html
+  min-height: 100%
+
+body
+  min-height: 100%
+  background: $bg
+  color: $text
+  font: #{$default-size}/#{$default-line-height} $default-font-family
+  letter-spacing: 1px
+  min-width: 1000px
+  +transition(background-image 0.5s, background-color 1s, color 1s)
+  &.page-home
+    background: $bg-home
+  &.page-book
+    color: $text-book
+
+.disable-hover, .disable-hover *
+  pointer-events: none !important
+
+.ch
+  display: none
+
+.middle
+  .ch, .en
+    display: block !important
+
+.lang-ch
+  .en
+    display: none
+  .ch
+    display: block
+    &.inline-block
+      display: inline-block
+  li.ch
+    display: list-item
+  span.ch
+    display: inline-block
+
+a
+  color: $link
+  text-decoration: none
+  +transition(color 0.5s)
+  &:hover
+    color: $hover
+  .page-book &
+    color: $link-book
+
+article
+  padding: $darkmatter
+  padding-top: 140px
+  @extend %blink
+
+.article-title
+  margin: $margin 0
+  font-size: 20px
+  line-height: 1.8em
+  div::after
+    +ninja
+    width: 100px
+    border-top: 1px solid
+    display: inline-block
+    margin-top: 18px
+    margin-left: 8px
+
+p
+  text-align: justify
+
+%blink
+  /* fix blink */
+  -webkit-transform: translate3d(0, 0, 0)
+  -webkit-backface-visibility: hidden
+
+main
+  // @include transition( opacity .5s );
+  opacity: 0
+  display: block
+  .js &
+    opacity: 0
+  .loaded &
+    opacity: 1
+
+#loader
+  display: none
+  position: fixed
+  width: 100%
+  text-align: center
+  top: 50%
+  opacity: 0
+  +transition(all 0.5s)
+  .loading &
+    opacity: 1
+
+
+.video-link
+  position: relative
+  cursor: pointer
+  display: block
+  &:before, &:after
+    +ninja
+    z-index: 999
+    top: 50%
+    left: 50%
+    display: block
+  &:before
+    width: 50px
+    height: 50px
+    margin-left: -25px
+    margin-top: -25px
+    background: #fff
+    opacity: .1
+    +border-radius(50%)
+  &:after
+    $width: 18px
+    $height: $width * .6
+    border-top: $height solid transparent
+    border-bottom: $height solid transparent
+    border-left: $width solid #fff
+    margin-left: -$width / 3
+    margin-top: -$height / 1.3
