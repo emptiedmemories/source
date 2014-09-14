@@ -160,7 +160,7 @@
         return;
       }
       e.preventDefault();
-      return new Video($link);
+      return new Player($link);
     };
 
     Site.prototype.changeLang = function(event) {

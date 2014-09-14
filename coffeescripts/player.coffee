@@ -1,4 +1,4 @@
-class window.Video
+class window.Player
   constructor: ($el) ->
     @id = $el.data('youtube')
     @body = $('body')
@@ -7,7 +7,7 @@ class window.Video
   prepare: ->
     @video = $('<div id="video">').appendTo(@body)
     @overlay = $("<div id='overlay'>").appendTo(@video)
-    @iframe = $("<iframe width='560' height='315' src='//www.youtube.com/embed/#{@id}?rel=0' frameborder='0' allowfullscreen>").appendTo(@video)
+    @iframe = $("<iframe width='560' height='315' src='http://www.youtube.com/embed/#{@id}?rel=0&autoplay=1' frameborder='0' allowfullscreen>").appendTo(@video)
   observe: ->
     @overlay.on 'click', @close
   close: =>

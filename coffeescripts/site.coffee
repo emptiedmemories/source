@@ -108,7 +108,7 @@ class window.Site
     $link = $(e.currentTarget)
     return if @is_china
     e.preventDefault()
-    new Video($link)
+    new Player($link)
 
   changeLang: ( event ) =>
     target = $ event.currentTarget

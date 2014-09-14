@@ -12,7 +12,7 @@
     Player.prototype.prepare = function() {
       this.video = $('<div id="video">').appendTo(this.body);
       this.overlay = $("<div id='overlay'>").appendTo(this.video);
-      return this.iframe = $("<iframe width='560' height='315' src='//www.youtube.com/embed/" + this.id + "?rel=0' frameborder='0' allowfullscreen>").appendTo(this.video);
+      return this.iframe = $("<iframe width='560' height='315' src='http://www.youtube.com/embed/" + this.id + "?rel=0&autoplay=1' frameborder='0' allowfullscreen>").appendTo(this.video);
     };
 
     Player.prototype.observe = function() {
