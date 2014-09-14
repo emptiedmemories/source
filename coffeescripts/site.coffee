@@ -42,7 +42,6 @@ $.fn.extend
 
       setTimeout go, duration
 
-
 ###
 ------------------------------------------------------------------------------
 
@@ -109,7 +108,7 @@ class window.Site
     $link = $(e.currentTarget)
     return if @is_china
     e.preventDefault()
-
+    new Video($link)
 
   changeLang: ( event ) =>
     target = $ event.currentTarget

@@ -159,7 +159,8 @@
       if (this.is_china) {
         return;
       }
-      return e.preventDefault();
+      e.preventDefault();
+      return new Video($link);
     };
 
     Site.prototype.changeLang = function(event) {
