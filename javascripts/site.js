@@ -42,6 +42,9 @@
 
         target = $(t);
         children = target.children('img');
+        if (!children.length) {
+          children = target.children('li');
+        }
         length = children.length;
         current = 0;
         duration = d || 1000;

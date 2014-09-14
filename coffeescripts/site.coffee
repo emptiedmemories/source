@@ -28,6 +28,7 @@ $.fn.extend
     @.each (i, t) ->
       target   = $ t
       children = target.children('img')
+      children = target.children('li') unless children.length
       length   = children.length
       current  = 0
       duration = d || 1000
