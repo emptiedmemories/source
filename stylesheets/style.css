@@ -278,7 +278,6 @@ main {
 #toggle-lang {
   position: fixed;
   top: 50px;
-  right: -50px;
   width: 60px;
   height: 120px;
   line-height: 60px;
@@ -286,6 +285,7 @@ main {
   text-align: center;
   font-size: 15px;
   z-index: 100;
+  right: -60px;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
@@ -293,16 +293,20 @@ main {
   transition: 0.5s;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000326}}
-#toggle-lang:hover, #toggle-lang.unselected {
+.js.cut3-actived #toggle-lang, .intro-passed #toggle-lang {
+  right: -50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000329}}
+.js.cut3-actived #toggle-lang:hover, .intro-passed #toggle-lang:hover, .js.cut3-actived #toggle-lang.unselected, .intro-passed #toggle-lang.unselected {
   right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000331}}
 #toggle-lang:hover a, #toggle-lang.unselected a {
   text-indent: 0;
   letter-spacing: 1px;
   color: rgba(51, 51, 51, 0.8);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000335}}
 #toggle-lang a {
   opacity: 0.3;
   display: block;
@@ -317,12 +321,12 @@ main {
   -o-transition: color 0.5s, background 0.5s, opacity 0.5s, text-indent 1s, letter-spacing 1s;
   transition: color 0.5s, background 0.5s, opacity 0.5s, text-indent 1s, letter-spacing 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000344}}
 #toggle-lang a:hover {
   opacity: 1;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000347}}
 #toggle-lang a.current {
   opacity: 0.6;
   font-weight: bold;
@@ -1740,8 +1744,8 @@ body {
   background-color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_video\.sass}line{font-family:\000031}}
-#video {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\000031}}
+#player {
   position: fixed;
   left: 0;
   top: 0;
@@ -1749,8 +1753,8 @@ body {
   right: 0;
   z-index: 999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_video\.sass}line{font-family:\000038}}
-#video #overlay {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\000038}}
+#player #overlay {
   background: #111111;
   opacity: 0.9;
   position: absolute;
@@ -1759,8 +1763,8 @@ body {
   bottom: 0;
   right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_video\.sass}line{font-family:\0000316}}
-#video iframe {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000316}}
+#player iframe {
   position: absolute;
   left: 50%;
   top: 50%;

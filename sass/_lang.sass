@@ -14,7 +14,6 @@ $width: 60px
 #toggle-lang
   position: fixed
   top: $darkmatter
-  right: -($width - 10)
   width: $width
   height: $width * 2
   line-height: $width
@@ -22,9 +21,13 @@ $width: 60px
   text-align: center
   font-size: 15px
   z-index: 100
+  right: -$width
   +transition(0.5s)
+  .js.cut3-actived &, .intro-passed &
+    right: -($width - 10)
   &:hover, &.unselected
-    right: 0
+    .js.cut3-actived &, .intro-passed &
+      right: 0
     a
       text-indent: 0
       letter-spacing: 1px
