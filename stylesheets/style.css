@@ -235,45 +235,6 @@ main {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000394}}
-.video-link {
-  position: relative;
-  cursor: pointer;
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000398}}
-.video-link:before, .video-link:after {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: 999;
-  top: 50%;
-  left: 50%;
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\00003104}}
-.video-link:before {
-  width: 50px;
-  height: 50px;
-  margin-left: -25px;
-  margin-top: -25px;
-  background: white;
-  opacity: 0.1;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\00003112}}
-.video-link:after {
-  border-top: 10.8px solid transparent;
-  border-bottom: 10.8px solid transparent;
-  border-left: 18px solid white;
-  margin-left: -6px;
-  margin-top: -8.30769px;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000314}}
 #toggle-lang {
   position: fixed;
@@ -1745,6 +1706,55 @@ body {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\000031}}
+.video-link {
+  position: relative;
+  cursor: pointer;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\000035}}
+.video-link:before, .video-link:after {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000311}}
+.video-link:before {
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  margin-top: -25px;
+  background: white;
+  opacity: 0.1;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000319}}
+.video-link:after {
+  opacity: 0.5;
+  border-top: 10.8px solid transparent;
+  border-bottom: 10.8px solid transparent;
+  border-left: 18px solid white;
+  margin-left: -6px;
+  margin-top: -8.30769px;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000330}}
+.video-link:hover:after {
+  opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000333}}
 #player {
   position: fixed;
   left: 0;
@@ -1753,7 +1763,7 @@ body {
   right: 0;
   z-index: 999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000340}}
 #player #overlay {
   background: #111111;
   opacity: 0.9;
@@ -1762,8 +1772,9 @@ body {
   top: 0;
   bottom: 0;
   right: 0;
+  cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000349}}
 #player iframe {
   position: absolute;
   left: 50%;

@@ -10,9 +10,9 @@
     }
 
     Player.prototype.prepare = function() {
-      this.video = $('<div id="video">').appendTo(this.body);
-      this.overlay = $("<div id='overlay'>").appendTo(this.video);
-      return this.iframe = $("<iframe width='560' height='315' src='http://www.youtube.com/embed/" + this.id + "?rel=0&autoplay=1' frameborder='0' allowfullscreen>").appendTo(this.video);
+      this.player = $('<div id="player">').appendTo(this.body);
+      this.overlay = $("<div id='overlay'>").appendTo(this.player);
+      return this.iframe = $("<iframe width='560' height='315' src='http://www.youtube.com/embed/" + this.id + "?rel=0&autoplay=1' frameborder='0' allowfullscreen>").appendTo(this.player);
     };
 
     Player.prototype.observe = function() {
@@ -20,7 +20,7 @@
     };
 
     Player.prototype.close = function() {
-      return this.video.remove();
+      return this.player.remove();
     };
 
     return Player;
