@@ -12,9 +12,9 @@ jQuery extend
 ####
 
 $.fn.extend
-  changeClass: ( a, b ) ->
+  changeClass: (a, b) ->
     target = $ @
-    target.removeClass( a ).addClass( b )
+    target.removeClass(a).addClass(b)
 
   fixedX: ->
     target = $ @

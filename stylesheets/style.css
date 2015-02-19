@@ -1,94 +1,96 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\000031}}
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\000031}}
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\000036}}
 .chromeframe {
   position: absolute;
   top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000310}}
 a:link {
   -webkit-tap-highlight-color: #3e3330;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000313}}
 ins {
   background-color: #3e3330;
-  color: black;
+  color: #000;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000318}}
 mark {
   background-color: #3e3330;
-  color: black;
+  color: #000;
   font-style: italic;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000324}}
 input:-moz-placeholder {
-  color: darkgrey;
+  color: #a9a9a9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000327}}
 textarea:-moz-placeholder {
-  color: darkgrey;
+  color: #a9a9a9;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000333}}
 h1 {
   font-size: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000333}}
 h2 {
   font-size: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000333}}
 h3 {
   font-size: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000333}}
 h4 {
   font-size: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000333}}
 h5 {
   font-size: 12px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000336}}
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000339}}
 .hide {
   display: none;
 }
 
 @media (max-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_default\.sass}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_default\.sass}line{font-family:\0000342}}
   .small-hide {
     display: none;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\000031}}
 html {
   min-height: 100%;
+  min-width: 900px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\000035}}
 body {
   min-height: 100%;
   background: #111111;
@@ -102,52 +104,52 @@ body {
   -o-transition: background-image 0.5s, background-color 1s, color 1s;
   transition: background-image 0.5s, background-color 1s, color 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000313}}
 body.page-home {
   background: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000315}}
 body.page-book {
   color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000318}}
 .disable-hover, .disable-hover * {
   pointer-events: none !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000321}}
 .ch {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000325}}
 .middle .ch, .middle .en {
   display: block !important;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000329}}
 .lang-ch .en {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000331}}
 .lang-ch .ch {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000333}}
 .lang-ch .ch.inline-block {
   display: inline-block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000335}}
 .lang-ch li.ch {
   display: list-item;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000337}}
 .lang-ch span.ch {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000340}}
 a {
   color: #9eeae8;
   text-decoration: none;
@@ -157,28 +159,28 @@ a {
   -o-transition: color 0.5s;
   transition: color 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000344}}
 a:hover {
   color: #f2fcfc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000346}}
 .page-book a {
   color: #464646;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000349}}
 article {
   padding: 50px;
   padding-top: 140px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000354}}
 .article-title {
   margin: 40px 0;
   font-size: 20px;
   line-height: 1.8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000358}}
 .article-title div::after {
   content: "";
   display: block;
@@ -190,33 +192,33 @@ article {
   margin-left: 8px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000366}}
 p {
   text-align: justify;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000369}}
 article, #header, .copyright, .about-panel .panel {
   /* fix blink */
   -webkit-transform: translate3d(0, 0, 0);
   -webkit-backface-visibility: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000374}}
 main {
   opacity: 0;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000378}}
 .js main {
   opacity: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000380}}
 .loaded main {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000383}}
 #loader {
   display: none;
   position: fixed;
@@ -230,12 +232,12 @@ main {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_general\.sass}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_general\.sass}line{font-family:\0000391}}
 .loading #loader {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\0000314}}
 #toggle-lang {
   position: fixed;
   top: 50px;
@@ -253,27 +255,27 @@ main {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\0000326}}
 .js.cut3-actived #toggle-lang, .intro-passed #toggle-lang {
   right: -50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\0000329}}
 .js.cut3-actived #toggle-lang:hover, .intro-passed #toggle-lang:hover, .js.cut3-actived #toggle-lang.unselected, .intro-passed #toggle-lang.unselected {
   right: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\0000331}}
 #toggle-lang:hover a, #toggle-lang.unselected a {
   text-indent: 0;
   letter-spacing: 1px;
   color: rgba(51, 51, 51, 0.8);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\0000335}}
 #toggle-lang a {
   opacity: 0.3;
   display: block;
   height: 60px;
   background: #9eeae8;
-  color: #333333;
+  color: #333;
   letter-spacing: 10px;
   text-indent: -100px;
   -webkit-transition: color 0.5s, background 0.5s, opacity 0.5s, text-indent 1s, letter-spacing 1s;
@@ -282,97 +284,97 @@ main {
   -o-transition: color 0.5s, background 0.5s, opacity 0.5s, text-indent 1s, letter-spacing 1s;
   transition: color 0.5s, background 0.5s, opacity 0.5s, text-indent 1s, letter-spacing 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\0000344}}
 #toggle-lang a:hover {
   opacity: 1;
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\0000347}}
 #toggle-lang a.current {
   opacity: 0.6;
   font-weight: bold;
   cursor: default;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000032}}
 .page-about #toggle-lang a {
   background: #d5bf9a;
   color: rgba(51, 51, 51, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000036}}
 .page-about #toggle-lang.unselected a {
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000039}}
 .page-about #toggle-lang:hover a {
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000032}}
 .page-artist #toggle-lang a {
   background: rgba(114, 255, 200, 0.7);
   color: rgba(17, 17, 17, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000036}}
 .page-artist #toggle-lang.unselected a {
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000039}}
 .page-artist #toggle-lang:hover a {
   color: black;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000032}}
 .page-work #toggle-lang a {
   background: #9ed4d8;
   color: rgba(17, 17, 17, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000036}}
 .page-work #toggle-lang.unselected a {
   color: #3d5c71;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000039}}
 .page-work #toggle-lang:hover a {
   color: #3d5c71;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000032}}
 .page-echo #toggle-lang a {
   background: #fcff89;
   color: rgba(17, 17, 17, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000036}}
 .page-echo #toggle-lang.unselected a {
-  color: #222222;
+  color: #222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000039}}
 .page-echo #toggle-lang:hover a {
-  color: #222222;
+  color: #222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000032}}
 .page-contact #toggle-lang a {
   background: rgba(65, 255, 232, 0.6);
   color: rgba(17, 17, 17, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000036}}
 .page-contact #toggle-lang.unselected a {
   color: #432823;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000039}}
 .page-contact #toggle-lang:hover a {
   color: #432823;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000032}}
 .page-book #toggle-lang a {
   background: black;
   color: rgba(17, 17, 17, 0);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000036}}
 .page-book #toggle-lang.unselected a {
   color: white;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_lang\.sass}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_lang\.sass}line{font-family:\000039}}
 .page-book #toggle-lang:hover a {
   color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\000031}}
 #header {
   position: fixed;
   left: 0;
@@ -388,7 +390,7 @@ main {
   -o-transition: padding-top 0.5s, padding-bottom 0.5s;
   transition: padding-top 0.5s, padding-bottom 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000312}}
 #header:before {
   content: "";
   display: block;
@@ -404,7 +406,7 @@ main {
   -o-transition: background 1s;
   transition: background 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000320}}
 #header:after {
   content: "";
   display: block;
@@ -415,13 +417,11 @@ main {
   bottom: 60px;
   background: rgba(0, 0, 0, 0.5);
   opacity: 0;
-  -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
-  -webkit-box-shadow: 0 2px 30px 30px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 2px 30px 30px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 2px 30px 30px rgba(0, 0, 0, 0.5);
   box-shadow: 0 2px 30px 30px rgba(0, 0, 0, 0.5);
   -webkit-transition: bottom 0.5s, opacity 0.5s 0.5s;
   -moz-transition: bottom 0.5s, opacity 0.5s 0.5s;
@@ -429,12 +429,12 @@ main {
   -o-transition: bottom 0.5s, opacity 0.5s 0.5s;
   transition: bottom 0.5s, opacity 0.5s 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000332}}
 .scrolled #header {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000335}}
 .scrolled #header:after {
   bottom: 35px;
   opacity: 1;
@@ -444,7 +444,7 @@ main {
   -o-transition: bottom 0.5s, opacity 0s;
   transition: bottom 0.5s, opacity 0s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000339}}
 .js .page-home #header {
   padding-left: 80px;
   opacity: 0;
@@ -454,31 +454,31 @@ main {
   -o-transition: padding-left 3s, opacity 0.5s, background 1s;
   transition: padding-left 3s, opacity 0.5s, background 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000343}}
 .page-about #header {
   opacity: 0.9;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000346}}
 .js.cut3-actived .page-home #header, .intro-passed .page-home #header {
   padding-left: 50px;
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000350}}
 .page-home #header, .page-contact #header {
   background: transparent;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000352}}
 .page-home #header:after, .page-contact #header:after {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000355}}
 #branding {
   position: relative;
   z-index: 1;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000359}}
 #branding a {
   display: block;
   width: 124px;
@@ -490,12 +490,12 @@ main {
   -o-transition: background 0.5s;
   transition: background 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000366}}
 .page-book #branding a {
   background-position: 0 bottom;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000369}}
 #main-menu {
   text-transform: uppercase;
   font-size: 0;
@@ -503,14 +503,14 @@ main {
   position: relative;
   z-index: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000376}}
 #main-menu li {
   font-size: 15px;
   display: inline-block;
   margin-right: 40px;
   line-height: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000382}}
 #main-menu li a {
   color: #6ea3a2;
   -webkit-transition: color 0.3s;
@@ -519,12 +519,12 @@ main {
   -o-transition: color 0.3s;
   transition: color 0.3s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000386}}
 #main-menu li.current a, #main-menu li:hover a {
   color: #9eeae8;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000389}}
 .sub-menu {
   position: fixed;
   left: 224px;
@@ -538,11 +538,11 @@ main {
   -o-transition: top 0.5s;
   transition: top 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\0000397}}
 .scrolled .sub-menu {
   top: 49px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\00003100}}
 .sub-menu li {
   list-style-position: inside;
   line-height: 1.5em;
@@ -550,11 +550,11 @@ main {
   float: left;
   margin-right: 49px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\00003107}}
 .sub-menu li.current a {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\00003110}}
 .sub-menu li a {
   -webkit-transition: color 0.5s, opacity 0.5s;
   -moz-transition: color 0.5s, opacity 0.5s;
@@ -563,12 +563,12 @@ main {
   transition: color 0.5s, opacity 0.5s;
   opacity: 0.5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_header\.sass}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_header\.sass}line{font-family:\00003113}}
 .sub-menu li a:hover {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_footer\.sass}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_footer\.sass}line{font-family:\000031}}
 .copyright {
   position: fixed;
   left: 0;
@@ -594,11 +594,11 @@ main {
   -o-transform-origin: 0% 0%;
   transform-origin: 0% 0%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_footer\.sass}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_footer\.sass}line{font-family:\0000311}}
 .copyright:hover {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_footer\.sass}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_footer\.sass}line{font-family:\0000313}}
 .copyright a {
   width: 50px;
   height: 50px;
@@ -610,7 +610,7 @@ main {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_footer\.sass}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_footer\.sass}line{font-family:\0000320}}
 .copyright a:hover .hide {
   -webkit-transform: rotateZ(90deg);
   -moz-transform: rotateZ(90deg);
@@ -618,7 +618,7 @@ main {
   -o-transform: rotateZ(90deg);
   transform: rotateZ(90deg);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_footer\.sass}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_footer\.sass}line{font-family:\0000322}}
 .copyright a .hide {
   position: absolute;
   left: 18px;
@@ -639,20 +639,20 @@ main {
   -o-transform: rotateZ(0deg);
   transform: rotateZ(0deg);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_footer\.sass}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_footer\.sass}line{font-family:\0000333}}
 .page-book .copyright a .hide {
   background-position: right top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_footer\.sass}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_footer\.sass}line{font-family:\0000338}}
 .js .page-home .copyright {
   left: -50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_footer\.sass}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_footer\.sass}line{font-family:\0000340}}
 .js.cut3-actived .page-home .copyright, .intro-passed .page-home .copyright {
   left: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\000031}}
 .cut0 {
   width: 90%;
   left: 5%;
@@ -661,26 +661,26 @@ main {
   text-align: center;
   font-size: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\000038}}
 .cut0 div {
   vertical-align: top;
   position: relative;
   float: left;
   height: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000313}}
 .cut4-actived .cut0 {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000327}}
 .cut1 {
   left: 10%;
   background: url("images/cuts/cut1.jpg") left top no-repeat;
   background-size: cover;
-  width: 32.69367%;
-  padding-top: 38.94812%;
-  margin-top: -14.47406%;
+  width: 32.6936744847%;
+  padding-top: 38.9481165601%;
+  margin-top: -14.47405828%;
   opacity: 0;
   -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
@@ -688,30 +688,30 @@ main {
   -o-transition: opacity 1s;
   transition: opacity 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000331}}
 .cut1-active .cut1 {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000333}}
 .cut2-active .cut1 {
   opacity: 0.4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000335}}
 .cut3-active .cut1 {
   opacity: 0.1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000337}}
 .cut3-actived .cut1 {
   opacity: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000341}}
 .cut2 {
   background: url("images/cuts/cut2.jpg") left top no-repeat;
   background-size: cover;
-  width: 41.00924%;
-  padding-top: 61.5494%;
-  margin-top: -30.7747%;
+  width: 41.0092395167%;
+  padding-top: 61.5493958778%;
+  margin-top: -30.7746979389%;
   opacity: 0;
   -webkit-transition: opacity 2s;
   -moz-transition: opacity 2s;
@@ -719,27 +719,27 @@ main {
   -o-transition: opacity 2s;
   transition: opacity 2s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000344}}
 .cut2-active .cut2 {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000346}}
 .cut3-active .cut2 {
   opacity: 0.2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000348}}
 .cut3-actived .cut2 {
   opacity: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000352}}
 .cut3 {
   left: -5%;
   background: url("images/cuts/cut3.jpg") left top no-repeat;
   background-size: cover;
-  width: 26.29709%;
-  padding-top: 39.37456%;
-  margin-top: -19.68728%;
+  width: 26.2970859986%;
+  padding-top: 39.3745557925%;
+  margin-top: -19.6872778962%;
   opacity: 0;
   -webkit-transition: opacity 1s;
   -moz-transition: opacity 1s;
@@ -747,25 +747,25 @@ main {
   -o-transition: opacity 1s;
   transition: opacity 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000356}}
 .cut3-active .cut3 {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000358}}
 .cut3-actived .cut3 {
   opacity: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000362}}
 .cut4 {
   position: fixed;
   width: 100%;
   height: 100%;
   background: url("images/cuts/cut4.jpg") center center no-repeat;
   opacity: 0;
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
   -webkit-transition: background-position 2s, opacity 1s;
   -moz-transition: background-position 2s, opacity 1s;
@@ -773,24 +773,24 @@ main {
   -o-transition: background-position 2s, opacity 1s;
   transition: background-position 2s, opacity 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000370}}
 .cut3-active .cut4 {
   background: url("images/cuts/cut4.jpg") -80px center no-repeat;
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000373}}
 .cut4-active .cut4 {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000375}}
 .cut5-actived .cut4 {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000378}}
 .testimonial {
   position: fixed;
   width: 100%;
@@ -805,7 +805,7 @@ main {
   transition: opacity 1s;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000387}}
 .testimonial li {
   position: absolute;
   width: 100%;
@@ -820,37 +820,41 @@ main {
   -webkit-backface-visibility: hidden;
   /* fix blink */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000396}}
 .cut5-active .testimonial .cut5 {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\0000398}}
 .cut6-active .testimonial .cut6 {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\00003100}}
 .cut7-active .testimonial .cut7 {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\00003102}}
+.cut8-active .testimonial .cut8 {
+  opacity: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\00003104}}
 .cut4-actived .testimonial {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\00003104}}
-.cut7-actived .testimonial {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\00003106}}
+.cut8-actived .testimonial {
   opacity: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\00003108}}
 .testimonial .middle {
   vertical-align: middle;
   display: table-cell;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\00003112}}
 .slideshow {
   line-height: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\00003114}}
 .js .slideshow {
   opacity: 0;
   -webkit-transition: opacity 5s;
@@ -859,7 +863,7 @@ main {
   -o-transition: opacity 5s;
   transition: opacity 5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\00003117}}
 .js .slideshow .slide {
   position: fixed;
   top: 0;
@@ -872,44 +876,44 @@ main {
   -o-transition: opacity 5s;
   transition: opacity 5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\00003124}}
 .js .slideshow .slide.active {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\00003126}}
 .js.cut4-actived .slideshow, .intro-passed .slideshow {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_home\.sass}line{font-family:\00003126}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_home\.sass}line{font-family:\00003128}}
 .slideshow .slide {
   width: 100%;
   height: 100%;
   background-position: center center;
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\000032}}
 .about-emptied-memories .trailer-wrapper {
   overflow: hidden;
   margin-bottom: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\000036}}
 .about-emptied-memories .player {
   float: left;
   width: 40%;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000310}}
 .about-emptied-memories .player .video-link {
   display: block;
   width: 100%;
-  padding-top: 59.57447%;
+  padding-top: 59.5744680851%;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000316}}
 .about-emptied-memories .player .clip-cover {
   width: 100%;
   height: 100%;
@@ -922,7 +926,7 @@ main {
   background-size: 100% 100%;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000316}}
   .about-emptied-memories .player .clip-cover {
     background-image: url("images/clip@2x.png");
     -webkit-background-size: 100% 100%;
@@ -930,7 +934,7 @@ main {
     background-size: 100% 100%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000325}}
 .about-emptied-memories .excerpt {
   list-style: disc;
   font-weight: bold;
@@ -940,31 +944,31 @@ main {
   margin-left: 40%;
   padding-left: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000334}}
 .about-emptied-memories .excerpt.en {
   font-size: 17px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000338}}
 .about-emptied-memories .excerpt li {
   margin-bottom: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000341}}
 .about-panel {
   height: 2000px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000343}}
 .about-panel article {
   width: 480px;
   position: fixed;
   z-index: 1;
   left: 0px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000348}}
 .about-panel .en {
   margin-bottom: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000354}}
 .js .about-panel .panels img {
   opacity: 0;
   -webkit-transition: opacity 1s 0.5s;
@@ -973,7 +977,7 @@ main {
   -o-transition: opacity 1s 0.5s;
   transition: opacity 1s 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000358}}
 .js .about-panel .panels img.active {
   opacity: 1;
   -webkit-transition: opacity 1s;
@@ -982,21 +986,21 @@ main {
   -o-transition: opacity 1s;
   transition: opacity 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000362}}
 .about-panel .panel-wrapper {
   list-style: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000364}}
 .about-panel .panel-wrapper li {
   position: absolute;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000366}}
 .about-panel .panel-wrapper img {
   position: absolute;
   left: 0;
   top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000371}}
 .about-panel .panel-1 {
   width: 733px;
   height: 412px;
@@ -1004,7 +1008,6 @@ main {
   top: 150px;
   left: 35%;
   -webkit-filter: blur(4px);
-  -moz-filter: blur(4px);
   filter: blur(4px);
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -1012,13 +1015,12 @@ main {
   -o-transition: all 1s;
   transition: all 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000379}}
 .about-panel .panel-1:hover {
   -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
   filter: blur(0px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000382}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000382}}
 .about-panel .panel-2 {
   width: 426px;
   height: 240px;
@@ -1032,11 +1034,11 @@ main {
   -o-transition: opacity 0.5s;
   transition: opacity 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000390}}
 .about-panel .panel-2:hover {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\0000393}}
 .about-panel .panel-3 {
   width: 292px;
   height: 195px;
@@ -1044,7 +1046,6 @@ main {
   top: 900px;
   left: 50%;
   -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
   filter: blur(3px);
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -1052,13 +1053,12 @@ main {
   -o-transition: all 1s;
   transition: all 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003101}}
 .about-panel .panel-3:hover {
   -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
   filter: blur(0px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003104}}
 .about-panel .panel-4 {
   width: 630px;
   height: 355px;
@@ -1066,7 +1066,6 @@ main {
   left: 10%;
   z-index: 7;
   -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
   filter: blur(1px);
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -1074,18 +1073,17 @@ main {
   -o-transition: all 1s;
   transition: all 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003109}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003109}}
 .about-panel .panel-4 img {
   width: 100%;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003116}}
 .about-panel .panel-4:hover {
   -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
   filter: blur(0px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003119}}
 .about-panel .panel-6 {
   width: 233px;
   height: 348px;
@@ -1094,7 +1092,6 @@ main {
   left: 40%;
   top: 1300px;
   -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
   filter: blur(1px);
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -1102,13 +1099,12 @@ main {
   -o-transition: all 1s;
   transition: all 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003128}}
 .about-panel .panel-6:hover {
   -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
   filter: blur(0px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003131}}
 .about-panel .panel-5 {
   width: 764px;
   height: 507px;
@@ -1117,7 +1113,6 @@ main {
   top: 1350px;
   left: 60%;
   -webkit-filter: blur(4px);
-  -moz-filter: blur(4px);
   filter: blur(4px);
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -1125,13 +1120,12 @@ main {
   -o-transition: all 1s;
   transition: all 1s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003140}}
 .about-panel .panel-5:hover {
   -webkit-filter: blur(0px);
-  -moz-filter: blur(0px);
   filter: blur(0px);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003142}}
 .about-panel .video-link {
   width: 100%;
   height: 100%;
@@ -1139,19 +1133,19 @@ main {
   background: rgba(255, 255, 255, 0);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003148}}
 .about-panoramic article {
   padding-top: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003150}}
 .about-panoramic .pan-wrapper {
   position: relative;
   width: 100%;
   height: 0;
   margin-top: 140px;
-  padding-top: 41.23989%;
+  padding-top: 41.2398921833%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003157}}
 .about-panoramic .pan {
   position: absolute;
   left: 0;
@@ -1165,61 +1159,61 @@ main {
   -o-transition: opacity 5s;
   transition: opacity 5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003165}}
 .about-panoramic .pan.active {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_about\.sass}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_about\.sass}line{font-family:\00003167}}
 .about-panoramic .pan img {
   width: 100%;
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_contact\.sass}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_contact\.sass}line{font-family:\000032}}
 .contact .logotype {
   margin-bottom: 80px;
   margin-top: 40px;
   width: 200px;
   height: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_contact\.sass}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_contact\.sass}line{font-family:\000037}}
 .contact section {
   float: left;
   margin-right: 60px;
   margin-bottom: 40px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_artist\.sass}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_artist\.sass}line{font-family:\000032}}
 .artist section {
   width: 40%;
   margin-right: 40px;
   display: inline-block;
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_artist\.sass}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_artist\.sass}line{font-family:\000037}}
 .artist section h1 {
   font-size: 15px;
   margin-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_artist\.sass}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_artist\.sass}line{font-family:\0000310}}
 .artist section .history {
   font-style: italic;
   color: #999999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_artist\.sass}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_artist\.sass}line{font-family:\0000315}}
 .artist section img {
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_artist\.sass}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_artist\.sass}line{font-family:\0000319}}
 .artist-group .unit {
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_artist\.sass}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_artist\.sass}line{font-family:\0000322}}
 .artist-group .group-create li {
   margin-bottom: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_artist\.sass}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_artist\.sass}line{font-family:\0000324}}
 .artist-group p {
   color: gray;
   -webkit-transition: color 0.5s;
@@ -1228,12 +1222,12 @@ main {
   -o-transition: color 0.5s;
   transition: color 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_artist\.sass}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_artist\.sass}line{font-family:\0000327}}
 .artist-group p .half {
   display: inline-block;
   width: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_artist\.sass}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_artist\.sass}line{font-family:\0000333}}
 .artist-group .group-produce:hover p,
 .artist-group .thanks:hover p,
 .artist-group li:hover p {
@@ -1241,83 +1235,79 @@ main {
 }
 
 @media (max-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_artist\.sass}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_artist\.sass}line{font-family:\0000337}}
   .artist {
     padding-right: 50px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_artist\.sass}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_artist\.sass}line{font-family:\0000339}}
   .artist section {
     width: 100%;
     margin-right: 0;
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_artist\.sass}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_artist\.sass}line{font-family:\0000343}}
   .group-create {
     margin-top: 40px;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\000032}}
 .book article {
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\000034}}
 .book .book-photo {
   line-height: 0;
   width: 50%;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\000038}}
 .book .introduction {
   width: 50%;
   float: right;
   padding-left: 40px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000312}}
 .book .introduction h2 {
   font-size: 25px;
   line-height: 1.3em;
   margin-bottom: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000316}}
 .book .introduction h2 .en {
   font-size: 20px;
   line-height: 1.1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000319}}
 .book p {
   margin-bottom: 40px;
   min-height: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000322}}
 .book .form-wrapper {
   border: 1px solid #e1e1e1;
   width: 100%;
   padding: 20px;
-  -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000323}}
 .book .form-wrapper h2 {
   font-size: 20px;
   line-height: 1.8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000331}}
 .book form label {
   display: block;
   margin-bottom: 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000334}}
 .book form input {
   border: 0;
   padding: 3px;
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
   -webkit-transition: background 0.5s;
   -moz-transition: background 0.5s;
@@ -1325,23 +1315,21 @@ main {
   -o-transition: background 0.5s;
   transition: background 0.5s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000339}}
 .book form input[type="text"] {
   background: gainsboro;
-  color: white;
+  color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000342}}
 .book form input:focus {
   outline: 0;
   background: #b5c7bf;
-  color: #333333;
+  color: #333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000346}}
 .book form [type="submit"] {
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
   -webkit-transition: background 0.5s;
   -moz-transition: background 0.5s;
@@ -1352,107 +1340,107 @@ main {
   padding: 5px 10px;
   margin: 10px 0;
   background: #d5bf9a;
-  color: #333333;
+  color: #333;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000354}}
 .book form [type="submit"]:focus {
   outline: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000356}}
 .book form [type="submit"]:hover {
   background: #dccaac;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000358}}
 .book form [type="submit"]:active {
   background: #c6a876;
 }
 
 @media (max-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000363}}
   .book p {
     min-height: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000365}}
   .book .book-photo {
     float: none;
     width: 100%;
     margin-bottom: 40px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000369}}
   .book .book-photo img {
     width: 100%;
     height: auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_book\.sass}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_book\.sass}line{font-family:\0000372}}
   .book .introduction {
     float: none;
     width: 100%;
     padding-left: 0;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\000031}}
 .page-work {
   overflow-x: hidden;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\000035}}
 .work-gallery .album {
   font-size: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\000038}}
 .work-gallery .album * {
   vertical-align: middle;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000311}}
 .work-gallery .album blockquote {
   font-size: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000313}}
 .work-gallery .album blockquote footer {
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000315}}
 .work-gallery .album blockquote footer::before {
   letter-spacing: 0;
   content: "──";
   padding-right: 4px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000320}}
 .work-gallery .album .album-title {
   color: black;
   position: relative;
   text-align: center;
   margin: 100px auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000325}}
 .work-gallery .album .album-title span {
   border: 2px solid black;
   font-size: 17px;
   line-height: 17px;
   padding: 8px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000330}}
 .work-gallery .album .album-title span.ch {
   text-indent: 0.3em;
   letter-spacing: 0.3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000334}}
 .work-gallery .album ul {
   text-align: center;
   width: 80%;
   margin: 0 auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000339}}
 .work-gallery .album li {
   display: inline-block;
   width: 50%;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000343}}
 .work-gallery .album li:hover {
   z-index: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000346}}
 .work-gallery .album img {
   opacity: 0.8;
   -webkit-transition: 2s;
@@ -1461,36 +1449,36 @@ main {
   -o-transition: 2s;
   transition: 2s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000349}}
 .work-gallery .album img:hover {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000352}}
 html {
   height: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000354}}
 .work-video {
   height: 100%;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000357}}
 .work-video .article-title {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000359}}
 .work-video article {
   height: 100%;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000362}}
-.work-video .video-wrapper {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000362}}
+.work-video #video-wrapper {
   width: 100%;
   padding-top: 56.0%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_work\.sass}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000366}}
 .work-video iframe {
   width: 100%;
   height: 100%;
@@ -1499,57 +1487,64 @@ html {
   top: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_work\.sass}line{font-family:\0000373}}
+#video-list {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\000032}}
 .page-echo .audience-post {
   margin: 0 10%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\000034}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\000034}}
 .page-echo .audience-post h2 {
   font-size: 20px;
   line-height: 1.5em;
   color: #d5bf9a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\000038}}
 .page-echo .audience-post p {
   text-indent: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000310}}
 .page-echo section {
   margin: 0 10%;
   padding-bottom: 50px;
   margin-bottom: 50px;
   border-bottom: 1px solid #645d51;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000315}}
 .page-echo section h2 {
   font-size: 20px;
   line-height: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000318}}
 .page-echo section.lu h2 .ch {
   text-indent: -10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000320}}
 .page-echo section header {
   color: #d5bf9a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000322}}
 .page-echo .paragraphs {
   margin: 50px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000324}}
 .page-echo .paragraphs h3 {
   font-size: 20px;
   line-height: 1.8em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000327}}
 .page-echo .paragraphs h3 ~ p {
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   padding-left: 15px;
   margin-left: 15px;
   padding-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000332}}
 .page-echo p {
   font-size: 15px;
   line-height: 1.7em;
@@ -1557,62 +1552,62 @@ html {
   padding-bottom: 30px;
   opacity: 0.8;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000338}}
 .page-echo .en p {
   text-indent: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000340}}
 .page-echo .author {
   font-size: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000342}}
 .page-echo .echo-info {
   text-align: right;
   line-height: 1.7em;
   opacity: 0.5;
   font-size: 12px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000347}}
 .page-echo .no-indent {
   text-indent: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000349}}
 .page-echo .signature {
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000352}}
 .page-echo .tony em {
   font: normal bold 13px "ヒラギノ角ゴ Pro W6", "HiraKakuPro-W6", "ＭＳ Ｐゴシック", "MS PGothic" sans-serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000354}}
 .page-echo .tony .ps {
   opacity: 0.5;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000357}}
 .page-echo .tony blockquote {
   margin-bottom: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000359}}
 .page-echo .tony blockquote p {
   margin: 0;
   font: normal 13px "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "MS PGothic", "Hiragino Kaku Gothic Pro";
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000362}}
 .page-echo .tony blockquote p em {
   font: normal 13px "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000364}}
 .page-echo .tony blockquote footer {
   text-align: right;
   margin-top: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_echo\.sass}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_echo\.sass}line{font-family:\0000367}}
 .page-echo .tony blockquote footer::before {
   content: "──";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\000039}}
 body {
   background-image: url("images/bgs/background-transparent.gif");
   background-repeat: no-repeat;
@@ -1620,98 +1615,98 @@ body {
   background-attachment: fixed;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000315}}
 .page-contact {
   background-image: url("images/bgs/background-5.jpg");
-  background-color: black;
-  -webkit-background-size: cover;
+  background-color: #000;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000324}}
 .page-about {
   background-image: url("images/bgs/background-transparent.gif");
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
-  background-color: #111111;
+  background-color: #111;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\000036}}
 .page-about #header:before {
-  background: #111111;
+  background: #111;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000324}}
 .page-artist {
   background-image: url("images/bgs/background-transparent.gif");
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
   background-color: #2d2d2d;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\000036}}
 .page-artist #header:before {
   background: #2d2d2d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000324}}
 .page-echo {
   background-image: url("images/bgs/background-transparent.gif");
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
   background-color: #48433a;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\000036}}
 .page-echo #header:before {
   background: #48433a;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000324}}
 .page-work-gallery {
   background-image: url("images/bgs/background-transparent.gif");
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
   background-color: #9caaa3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\000036}}
 .page-work-gallery #header:before {
   background: #9caaa3;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000324}}
 .page-book {
   background-image: url("images/bgs/background-transparent.gif");
-  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
   background-color: #eeeeee;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\000036}}
 .page-book #header:before {
   background: #eeeeee;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_backgrounds\.sass}line{font-family:\0000327}}
 .page-work-video {
-  background-color: black;
+  background-color: #000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_player\.sass}line{font-family:\000039}}
 .video-link {
   position: relative;
   cursor: pointer;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_player\.sass}line{font-family:\0000313}}
 .video-link:before, .video-link:after {
   content: "";
   display: block;
@@ -1721,40 +1716,55 @@ body {
   left: 50%;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_player\.sass}line{font-family:\0000319}}
 .video-link:before {
   width: 50px;
   height: 50px;
   margin-left: -25px;
   margin-top: -25px;
-  background: white;
+  background: #fff;
   opacity: 0.1;
-  -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_player\.sass}line{font-family:\0000327}}
 .video-link:after {
   opacity: 0.5;
   border-top: 10.8px solid transparent;
   border-bottom: 10.8px solid transparent;
-  border-left: 18px solid white;
+  border-left: 18px solid #fff;
   margin-left: -6px;
-  margin-top: -8.30769px;
+  margin-top: -8.3076923077px;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_player\.sass}line{font-family:\0000332}}
 .video-link:hover:after {
   opacity: 1;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_player\.sass}line{font-family:\0000334}}
+.video-link.inline {
+  padding-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_player\.sass}line{font-family:\0000336}}
+.video-link.inline:before {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_player\.sass}line{font-family:\0000338}}
+.video-link.inline:after {
+  left: 0;
+  border-top: 4.2px solid transparent;
+  border-bottom: 4.2px solid transparent;
+  border-left: 7px solid #fff;
+  margin-left: -2.3333333333px;
+  margin-top: -3.2307692308px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_player\.sass}line{font-family:\0000342}}
 #player {
   position: fixed;
   left: 0;
@@ -1763,9 +1773,9 @@ body {
   right: 0;
   z-index: 999;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_player\.sass}line{font-family:\0000349}}
 #player #overlay {
-  background: #111111;
+  background: #111;
   opacity: 0.9;
   position: absolute;
   left: 0;
@@ -1774,7 +1784,7 @@ body {
   right: 0;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/19\/Sites\/personal\/emptiedmemories\/source\/sass\/_player\.sass}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/sorarize\/Sites\/empty-memories\/source\/sass\/_player\.sass}line{font-family:\0000358}}
 #player iframe {
   position: absolute;
   left: 50%;
