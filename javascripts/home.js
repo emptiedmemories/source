@@ -12,7 +12,7 @@
       }
 
       Home.prototype.setting = function() {
-        this.cutTime = [0, 0, 1500, 500, 1800, 3500, 3000, 3000, 3000];
+        this.cutDuration = [0, 0, 1500, 500, 1800, 3500, 3000, 3000, 3000, 3000];
         this.cut = 0;
         return this.slideDuration = 5000;
       };
@@ -45,18 +45,18 @@
           this.slideInit(0);
         }
         this.cut++;
-        if (this.cut === this.cutTime.length) {
+        if (this.cut === this.cutDuration.length) {
           site.introViewed = true;
           this.slideTrigger();
           return;
         }
-        return setTimeout(this.introGo, this.cutTime[this.cut]);
+        return setTimeout(this.introGo, this.cutDuration[this.cut]);
       };
 
       Home.prototype.introPassed = function() {
         var add, i, remove, _i, _ref;
 
-        for (i = _i = 0, _ref = this.cutTime.length; 0 <= _ref ? _i < _ref : _i > _ref; i = 0 <= _ref ? ++_i : --_i) {
+        for (i = _i = 0, _ref = this.cutDuration.length; 0 <= _ref ? _i < _ref : _i > _ref; i = 0 <= _ref ? ++_i : --_i) {
           remove = "cut" + i + "-active";
           add = "cut" + i + "-actived";
           this.html.changeClass(remove, add);

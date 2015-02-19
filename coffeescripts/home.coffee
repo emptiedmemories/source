@@ -7,7 +7,7 @@
       @init()
 
     setting: ->
-      @cutTime       = [ 0, 0, 1500, 500, 1800, 3500, 3000, 3000, 3000 ]
+      @cutDuration   = [0, 0, 1500, 500, 1800, 3500, 3000, 3000, 3000, 3000]
       @cut           = 0
       @slideDuration = 5000
 
@@ -16,7 +16,7 @@
       @body   = site.body
       @slides = @body.find '.slide'
       @length = @slides.length
-    
+
     observe: ->
 
     init: ->
@@ -33,14 +33,14 @@
         @slideInit 0
       @cut++
 
-      if @cut == @cutTime.length
+      if @cut == @cutDuration.length
         site.introViewed = true
         @slideTrigger()
         return
-      setTimeout @introGo, @cutTime[@cut]
+      setTimeout @introGo, @cutDuration[@cut]
 
     introPassed: ->
-      for i in [0...@cutTime.length]
+      for i in [0...@cutDuration.length]
         remove = "cut#{i}-active"
         add    = "cut#{i}-actived"
         @html.changeClass remove, add
